@@ -1,0 +1,21 @@
+{
+    "name": "federico.castelli/simpletwittersdkphp",
+    "description": "A PHP-SDK for Twitter Search API",
+    "keywords": ["twitter search", "search"],
+    "type": "package",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "license": "MIT",
+    "authors": [{
+        "name": "Federico Castelli",
+        "email": "fede.castelli21@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Twitter\\" : "Twitter/"
+        }
+    },
+    "version": "1.0.0",
+    "minimum-stability": "dev"
+}
